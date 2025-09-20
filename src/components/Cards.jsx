@@ -53,7 +53,7 @@ const Cards = () => {
     return (
         <>
 
-    <Header/>
+
      <h3 className='text-center mt-3'>Rent <span className='text-success'> Luxury Products</span> Based on your requirement</h3>
 
     <div className='selectItems'>
