@@ -11,7 +11,7 @@ function AddProduct() {
   const fileInputRef = useRef(null)
 
 
-  const URL = "http://localhost:4000/owner/addProduct"
+  const URL = "https://renthive-backend.onrender.com/owner/addProduct"
 
   const owner = JSON.parse(localStorage.getItem("owner"));
   const ownerId = owner._id;

@@ -64,7 +64,7 @@ const UpdateInventory = () => {
       
   }
 
-  const URL = "http://localhost:4000/owner/updateInventory"
+  const URL = "https://renthive-backend.onrender.com/owner/updateInventory"
 
 
     try {

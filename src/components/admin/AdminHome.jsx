@@ -7,7 +7,7 @@ import '../../css/AdminHome.css'
 
 const AdminHome = () => {
 
-  const URL = "http://localhost:4000/admin/adminProfile"
+  const URL = "https://renthive-backend.onrender.com/admin/adminProfile"
 
   const navigate = useNavigate()
 

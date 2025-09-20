@@ -14,7 +14,7 @@ const Feedback = () => {
 
     const [feedback, setFeedback] = useState({ fullname: user.name ,email: email, rating: "", remarks: "" })
 
-    const URL = "http://localhost:4000/user/feedback"
+    const URL = "https://renthive-backend.onrender.com/user/feedback"
 
     function fechData(e) {
         setFeedback({ ...feedback, [e.target.name]: e.target.value })

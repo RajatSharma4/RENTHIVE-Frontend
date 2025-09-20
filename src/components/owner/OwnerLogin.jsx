@@ -13,7 +13,7 @@ const OwnerLogin = () => {
 
   const navigate = useNavigate()
 
-  const URL = "http://localhost:4000/owner/ownerLogin"
+  const URL = "https://renthive-backend.onrender.com/owner/ownerLogin"
 
   const [loginData, setLoginData] = useState({ email: "", password: "" })
 

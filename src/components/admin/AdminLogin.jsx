@@ -12,7 +12,7 @@ const AdminLogin = () => {
 
  const navigate = useNavigate()
 
-  const URL = "http://localhost:4000/admin/adminLogin"
+  const URL = "https://renthive-backend.onrender.com/admin/adminLogin"
 
   const [loginData, setLoginData] = useState({name:"", phone:"", email: "", password: "" })
 

@@ -55,7 +55,7 @@ const UserRegistration = () => {
 
         }
 
-        const URL = "http://localhost:4000/user/register"
+        const URL = "https://renthive-backend.onrender.com/user/register"
 
         try {
 

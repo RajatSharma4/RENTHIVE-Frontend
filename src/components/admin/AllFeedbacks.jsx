@@ -7,7 +7,7 @@ const AllFeedbacks = () => {
 
     const[feedbacks, setFeedbacks] = useState([])
    
-  const URL = "http://localhost:4000/admin/allFeedbacks" 
+  const URL = "https://renthive-backend.onrender.com/admin/allFeedbacks" 
 
   const fetchData = async()=>{
     try{

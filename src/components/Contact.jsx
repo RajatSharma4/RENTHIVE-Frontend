@@ -10,7 +10,7 @@ const Contact = () => {
 
     const [contact, setContact] = useState({ firstname: "", lastname: "", email: "", phone: "", message: "" })
 
-    const URL = "http://localhost:4000/contact"
+    const URL = "https://renthive-backend.onrender.com/contact"
 
     function fechData(e) {
         setContact({ ...contact, [e.target.name]: e.target.value })

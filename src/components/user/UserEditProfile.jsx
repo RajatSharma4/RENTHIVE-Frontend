@@ -10,7 +10,7 @@ const UserEditProfile = () => {
 
     const storedData = JSON.parse(localStorage.getItem("user"))
 
-    const URL = "http://localhost:4000/user/editProfile"
+    const URL = "https://renthive-backend.onrender.com/user/editProfile"
     const navigate = useNavigate()
 
     const [oldData, setOldData] = useState({ name: storedData.name, city: storedData.city, address: storedData.address, phone: storedData.phone })

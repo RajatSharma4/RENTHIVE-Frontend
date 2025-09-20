@@ -6,7 +6,7 @@ import AdminHeader from './AdminHeader'
 const AllUsers = () => {
 
      const [profile, setProfile] = useState([])
-    const URL = "http://localhost:4000/admin/allUsers"
+    const URL = "https://renthive-backend.onrender.com/admin/allUsers"
 
 
     const fetchData = async () => {
@@ -35,7 +35,7 @@ const AllUsers = () => {
                                 <div className="card-uiverse text-center">
                                     <div className="bg-uiverse">
                                         <img
-                                            src={`http://localhost:4000/userPics/${user.pic}`}
+                                            src={`https://renthive-backend.onrender.com/userPics/${user.pic}`}
                                             alt={user.fullname}
                                             height={200}
                                             width={270}

@@ -7,7 +7,7 @@ import '../../css/MyProduct.css'
 
 const MyProducts = () => {
 
-    const URL = "http://localhost:4000/owner/myProduct"
+    const URL = "https://renthive-backend.onrender.com/owner/myProduct"
 
 
     const [myProduct, setMyProduct] = useState([])
@@ -52,7 +52,7 @@ const MyProducts = () => {
         myProduct.map((p)=>{
             return(
                 <div className='item-div1' key={p._id}>
-                        <img src={`http://localhost:4000/productPics/${p.productPic}`} alt="" height={200} width={270} />
+                        <img src={`https://renthive-backend.onrender.com/productPics/${p.productPic}`} alt="" height={200} width={270} />
 
                         <p> <b>Name:</b> {p.productName}</p>
                         <p> <b>Price:</b> {p.productPrice}</p>

@@ -15,7 +15,7 @@ const UserLogin = () => {
 
   const [loginData, setLoginData] = useState({ email: "", password: "" })
 
-  const URL = "http://localhost:4000/user/userLogin"
+  const URL = "https://renthive-backend.onrender.com/user/userLogin"
 
   const fetchData = (e) => {
     setLoginData({ ...loginData, [e.target.name]: e.target.value })

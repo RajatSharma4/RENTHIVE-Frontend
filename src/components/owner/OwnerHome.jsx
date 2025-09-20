@@ -7,7 +7,7 @@ import '../../css/OwnerHome.css'
 
 const OwnerHome = () => {
 
-   const URL = "http://localhost:4000/owner/ownerProfile"
+   const URL = "https://renthive-backend.onrender.com/owner/ownerProfile"
    const navigate = useNavigate()
 
     const [profile, setProfile] = useState({ fullname: "", city: "", address: "", phone: "", pic: "" })
@@ -55,7 +55,7 @@ const OwnerHome = () => {
           <div className="container d-flex justify-content-center align-items-center min-vh-100">
       <div className="card-uiverse text-center">
         <div className="bg-uiverse">
-            <img src={`http://localhost:4000/profilePics/${profile.pic}`} alt="" height={200} width={270} />  
+            <img src={`https://renthive-backend.onrender.com/profilePics/${profile.pic}`} alt="" height={200} width={270} />  
             <div className='pt-2'>
                <p> <strong>FullName:</strong> {profile.fullname}</p>
              <p> <strong>Phone:</strong> {profile.phone}</p>

@@ -7,7 +7,7 @@ const AllContacts = () => {
 
     const[contact, setContact] = useState([])
 
-    const URL = "http://localhost:4000/admin/allContacts"
+    const URL = "https://renthive-backend.onrender.com/admin/allContacts"
 
     const fetchData = async()=>{   
         try{

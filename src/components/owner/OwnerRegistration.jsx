@@ -56,7 +56,7 @@ const OwnerRegistration = () => {
             
         }
 
-        const URL = "http://localhost:4000/owner/ownerRegister"
+        const URL = "https://renthive-backend.onrender.com/owner/ownerRegister"
 
         try{
 

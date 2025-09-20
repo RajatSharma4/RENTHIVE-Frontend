@@ -7,7 +7,7 @@ const UserInvoiceData = () => {
 
   const [invoice, setInvoice] = useState([])
 
-  const URL = "http://localhost:4000/user/allInvoice"
+  const URL = "https://renthive-backend.onrender.com/user/allInvoice"
 
   const fetchData = async () => {
 

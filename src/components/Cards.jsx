@@ -8,7 +8,7 @@ import '../css/ViewProduct.css'
 
 const Cards = () => {
 
- const URL = "http://localhost:4000/user/viewProduct"
+ const URL = "https://renthive-backend.onrender.com/user/viewProduct"
 
   const [product, setProduct] = useState([])
   const [cat, setCat] = useState("")
@@ -17,7 +17,7 @@ const Cards = () => {
     setCat(selectedCategory)
     try{
       const params={"category":cat}
-    const serverResponse = await axios.get(`http://localhost:4000/user/setCategory?category=${selectedCategory}`)
+    const serverResponse = await axios.get(`https://renthive-backend.onrender.com/user/setCategory?category=${selectedCategory}`)
   //  const serverResponse = await axios.get(URL,{params})
       
     setProduct(serverResponse.data.objectData)
@@ -71,7 +71,7 @@ const Cards = () => {
           product.map((p) => {
             return (
               <div className='item-div' key={p._id}>
-                <img src={`http://localhost:4000/productPics/${p.productPic}`} alt="" height={200} width={270} />
+                <img src={`https://renthive-backend.onrender.com/productPics/${p.productPic}`} alt="" height={200} width={270} />
 
                 <p> <b>Name:</b> {p.productName}</p>
                 <p> <b>Price:</b> {p.productPrice}</p>
